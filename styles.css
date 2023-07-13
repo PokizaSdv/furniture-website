@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Mazzard";
+    src: url("./fonts/MazzardL-Regular.otf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Mazzard";
+    src: url("./fonts/MazzardL-SemiBold.otf") format("truetype");
+    font-weight: 600;
+}
+
+body {
+    font-family: "Mazzard";
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
