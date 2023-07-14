@@ -15,8 +15,15 @@
     font-weight: 600;
 }
 
+:root {
+    --text-color: #1d263a;
+}
+
 body {
     font-family: "Mazzard";
+    max-width: 1600px;
+    padding: 20px 61px;
+    /* font-size: 0; */
 }
 
 ul {
@@ -25,4 +32,72 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+/* Header */
+
+header {
+    height: 30px;
+}
+
+.navigation {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+nav div {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+}
+
+.heading {
+    display: inline-block;
+    color: #213053;
+    font-family: Mazzard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    margin-left: 80px;
+}
+
+.dot {
+    display: inline-block;
+    color: #f18b62;
+    font-family: Mazzard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.2px;
+}
+
+.navigation__links {
+    display: inline-block;
+}
+
+.navigation__links li:not(:last-child) {
+    display: inline-block;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.navigation__links li:last-child {
+    display: inline-block;
+    position: absolute;
+    right: 80px;
+}
+
+.navigation__links li a {
+    color: var(--text-color);
+    font-family: Mazzard;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
 }
