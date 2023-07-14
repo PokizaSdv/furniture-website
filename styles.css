@@ -5,25 +5,28 @@
 }
 @font-face {
     font-family: "Mazzard";
-    src: url("./fonts/MazzardL-Regular.otf") format("truetype");
+    src: url("./fonts/MazzardL-Regular.otf");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Mazzard";
-    src: url("./fonts/MazzardL-SemiBold.otf") format("truetype");
+    src: url("./fonts/MazzardL-SemiBold.otf");
     font-weight: 600;
 }
 
 :root {
     --text-color: #1d263a;
+    --color-7: #20bfa9;
+    --color-9: rgba(250, 226, 218, 0.4);
+    --color-3: #ff794d;
 }
 
 body {
     font-family: "Mazzard";
     max-width: 1600px;
     padding: 20px 61px;
-    /* font-size: 0; */
+    font-size: 0;
 }
 
 ul {
@@ -38,6 +41,7 @@ a {
 
 header {
     height: 30px;
+    margin-bottom: 40px;
 }
 
 .navigation {
@@ -100,4 +104,91 @@ nav div {
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
+}
+
+/* Section - 2  */
+
+#section-2 {
+    width: 100%;
+    border-radius: 30px;
+    background: var(--color-9);
+    padding: 75px 91px;
+}
+
+.section-2_right {
+    width: 45%;
+    display: inline-block;
+}
+
+.circle {
+    width: 313px;
+    height: 313px;
+    flex-shrink: 0;
+    margin-left: 158px;
+    border-radius: 313px;
+    background: var(--color-7);
+    position: absolute;
+    transform: translate(0, 25%);
+}
+
+.container img {
+    width: 434px;
+    height: 525px;
+    position: relative;
+}
+.section-2_left {
+    width: 55%;
+    display: inline-block;
+}
+
+.title:first-child h2 {
+    color: var(--color-3);
+    font-family: Mazzard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 6px;
+    margin-bottom: 34px;
+}
+
+.title h3 {
+    color: var(--text-color);
+    font-family: Mazzard;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 66px; /* 110% */
+    letter-spacing: -1px;
+    margin-right: 177px;
+}
+
+.title h4 {
+    color: var(--text-color, #1d263a);
+    font-family: Mazzard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 27px;
+    margin-right: 341px;
+    margin-bottom: 58px;
+}
+
+.line {
+    width: 40px;
+    height: 4px;
+    background-color: #ff794d;
+    display: inline-block;
+    margin-right: 25px;
+}
+.title h4 {
+    color: var(--text-color, #1d263a);
+    font-family: Mazzard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 169.231% */
+    letter-spacing: 4px;
+    display: inline-block;
 }
