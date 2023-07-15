@@ -5,26 +5,26 @@
 }
 @font-face {
     font-family: "Mazzard";
-    src: url("./fonts/MazzardL-Regular.otf");
+    src: url("./fonts/Mazzard-Regular.otf") format("truetype");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Mazzard";
-    src: url("./fonts/MazzardL-SemiBold.otf");
+    src: url("./fonts/Mazzard-SemiBold.otf") format("truetype");
     font-weight: 600;
 }
 
 :root {
     --text-color: #1d263a;
     --color-7: #20bfa9;
-    --color-9: rgba(250, 226, 218, 0.4);
+    --color-9: #fae2da;
     --color-3: #ff794d;
+    --color-8: #d6ebe4;
 }
 
 body {
-    font-family: "Mazzard";
-    max-width: 1600px;
+    max-width: 1478px;
     padding: 20px 61px;
     font-size: 0;
 }
@@ -61,7 +61,6 @@ nav div {
 .heading {
     display: inline-block;
     color: #213053;
-    font-family: Mazzard;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -73,7 +72,7 @@ nav div {
 .dot {
     display: inline-block;
     color: #f18b62;
-    font-family: Mazzard;
+
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -99,7 +98,6 @@ nav div {
 
 .navigation__links li a {
     color: var(--text-color);
-    font-family: Mazzard;
     font-size: 17px;
     font-style: normal;
     font-weight: 600;
@@ -131,7 +129,7 @@ nav div {
     transform: translate(0, 25%);
 }
 
-.container img {
+.section-2_right__container img {
     width: 434px;
     height: 525px;
     position: relative;
@@ -143,7 +141,6 @@ nav div {
 
 .title:first-child h2 {
     color: var(--color-3);
-    font-family: Mazzard;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -154,7 +151,6 @@ nav div {
 
 .title h3 {
     color: var(--text-color);
-    font-family: Mazzard;
     font-size: 60px;
     font-style: normal;
     font-weight: 600;
@@ -165,7 +161,6 @@ nav div {
 
 .title h4 {
     color: var(--text-color, #1d263a);
-    font-family: Mazzard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -184,11 +179,74 @@ nav div {
 }
 .title h4 {
     color: var(--text-color, #1d263a);
-    font-family: Mazzard;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
-    line-height: 22px; /* 169.231% */
+    line-height: 22px;
     letter-spacing: 4px;
     display: inline-block;
+}
+
+/* Section - 3 */
+
+#section-3 {
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ssection-3_container {
+    margin: 0, auto;
+}
+.section-3_item {
+    display: inline-block;
+    width: calc((100% / 3) - 120px);
+    margin-right: 80px;
+}
+
+.section-3_item-1,
+.section-3_item-2 {
+    margin-right: 120px;
+}
+
+.thumbnail {
+    display: inline-block;
+    transform: translate(100%, 150%);
+}
+
+.thumbnail :first-child {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+.thumbnail :nth-child(2) {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    transform: translate(75%, 75%);
+}
+
+.describtion {
+    display: inline-block;
+    margin-left: 150px;
+}
+.describtion-1 {
+    margin-top: -10px;
+}
+.describtion > h2 {
+    color: var(--text-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.3px;
+}
+
+.describtion p {
+    color: var(--text-color);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
