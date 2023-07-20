@@ -3,128 +3,229 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Furniture-website</title>
+        <title>Furniture-Website</title>
         <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
-        <header>
-            <nav class="navigation">
-                <div>
-                    <h1 class="heading">Whiter</h1>
-                    <h2 class="dot">.</h2>
-                </div>
+        <header id="header">
+            <nav class="navigation container">
+                <h1 class="heading">Whiter</h1>
+                <p class="dot">.</p>
+
                 <ul class="navigation__links">
                     <li><a href="">Products</a></li>
                     <li><a href="">Rooms</a></li>
                     <li><a href="">Inspiration</a></li>
                     <li><a href="">Support</a></li>
-                    <li><a href="">Sign In</a></li>
                 </ul>
+
+                <a class="navigation__action" href="">Sign in</a>
             </nav>
         </header>
-        <section id="section-2">
-            <div class="section-2_right">
-                <div class="section-2_right__container">
-                    <div class="circle"></div>
 
-                    <img src="./images/hero.png" alt="" />
-                </div>
-            </div>
-            <div class="section-2_left">
-                <div class="title">
-                    <h2>QUALITY DESIGN FOR ALL</h2>
-                    <h3>
-                        Bring back the classic look by using Whiter. Easy home
-                        delivery!
-                    </h3>
-                    <h4>
-                        Rediscover the timeless allure of the past as Whiter
-                        effortlessly revives the beloved vintage aesthetic.
-                    </h4>
-                    <div class="section-2_explore">
-                        <div class="line"></div>
-                        <h4>EXPLORE OUR PRODUCTS</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="section-3">
-            <div class="section-3_container">
-                <div class="section-3_item section-3_item-1">
-                    <div class="thumbnail thumbnail-1">
+        <section id="hero-section">
+            <div class="hero-section container">
+                <div class="hero-section__card">
+                    <div class="hero-section__left">
                         <img
-                            src="./images/Ellipse-1.png
-                    "
-                            alt=""
-                        /><img src="./images/heart-1.png" alt="" />
+                            class="cycle"
+                            src="./images/shape-1.png"
+                            alt="Circle shape"
+                        />
+                        <img
+                            class="chair"
+                            src="./images/hero.png"
+                            alt="Chair"
+                        />
                     </div>
-                    <div class="describtion describtion-1">
-                        <h2>Best Quality</h2>
-                        <p>
-                            Uncompromising excellence delivered in every product
-                            and experience
+
+                    <div class="hero-section__right">
+                        <span class="uppercase-text-2 text-top"
+                            >QUALITY DESIGN FOR ALL</span
+                        >
+                        <h1 class="heading-1">
+                            Bring back the classic <br />look by using Whiter.
+                            <br />Easy home delivery!
+                        </h1>
+                        <p class="text-md">
+                            Rediscover the timeless allure of the past as Whiter
+                            effortlessly <br />revives the beloved vintage
+                            aesthetic.
+                        </p>
+                        <div class="orange-line"></div>
+                        <span class="uppercase-text-2"
+                            >EXPLORE OUR PRODUCTS</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features-section">
+            <div class="features-section container">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <div class="ellipse shape-1">
+                            <img
+                                class="icon"
+                                src="./images/heart-1.png"
+                                alt="heart shape"
+                            />
+                        </div>
+                    </div>
+                    <div class="feature-text">
+                        <h4 class="heading-6">Best quality</h4>
+                        <p class="text-md">
+                            Uncompromising excellence <br />delivered in every
+                            product <br />and experience
                         </p>
                     </div>
                 </div>
-                <div class="section-3_item section-3_item-2">
-                    <div class="thumbnail thumbnail-2">
-                        <img src="./images/Ellipse-2.png" alt="" />
-                        <img src="./images/zap-2.png" alt="" />
+
+                <div class="feature">
+                    <div class="feature-icon">
+                        <div class="ellipse shape-2">
+                            <img
+                                class="icon"
+                                src="./images/zap-2.png"
+                                alt="heart shape"
+                            />
+                        </div>
                     </div>
-                    <div class="describtion">
-                        <h2>Fastest delivery</h2>
-                        <p>
-                            Swift and efficient shipping to bring your order to
-                            you promptly.
+                    <div class="feature-text">
+                        <h4 class="heading-6">Fastest delivery</h4>
+                        <p class="text-md">
+                            Swift and efficient shipping to <br />bring your
+                            order to you promptly.
                         </p>
                     </div>
                 </div>
-                <div class="section-3_item">
-                    <div class="thumbnail">
-                        <img src="./images/Ellipse-3.png" alt="" />
-                        <img src="./images/headphones-3.png" alt="" />
+
+                <div class="feature">
+                    <div class="feature-icon">
+                        <div class="ellipse shape-3">
+                            <img
+                                class="icon"
+                                src="./images/headphones-3.png"
+                                alt="heart shape"
+                            />
+                        </div>
                     </div>
-                    <div class="describtion">
-                        <h2>Great support</h2>
-                        <p>
-                            Exceptional customer service to assist and guide you
-                            effectively
+                    <div class="feature-text">
+                        <h4 class="heading-6">Great support</h4>
+                        <p class="text-md">
+                            Exceptional customer service to <br />assist and
+                            guide you effectively
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="section-4">
-            <div class="section-4_container">
-                <h3>Explore our exclusive design</h3>
+
+        <section id="designs-section">
+            <div class="designs-section container">
+                <h3 class="heading-3">Explore our exclusive design.</h3>
                 <div class="arrows">
                     <img
-                        class="arrow-left"
+                        class="arrow-right"
                         src="./images/arrow-left.png"
-                        alt=""
+                        alt="arrow right"
                     />
                     <img
-                        class="arrow-right"
+                        class="arrow-left"
                         src="./images/arrow-right.png"
-                        alt=""
+                        alt="arrow left"
                     />
                 </div>
-                <div class="images">
-                    <div class="img_cont">
-                        <img src="./images/chair-light.jpeg" alt="" />
-                    </div>
 
-                    <div class="img_cont">
-                        <img src="./images/chair-dark.jpeg" alt="" />
-                    </div>
-                    <div class="img_cont">
-                        <img src="./images/couch.jpeg" alt="" />
+                <div class="design-card">
+                    <img
+                        class="design-img chair-light"
+                        src="./images/chair-light.jpeg"
+                        alt="Chair"
+                    />
+                </div>
+
+                <div class="design-card">
+                    <img
+                        class="design-img chair-dark"
+                        src="./images/chair-dark.jpeg"
+                        alt="Chair"
+                    />
+                </div>
+
+                <div class="design-card" id="design-last-card">
+                    <img
+                        class="design-img couch"
+                        src="./images/couch.jpeg"
+                        alt="Couch"
+                    />
+                    <div class="design-inner-card">
+                        <span>$271</span>
+                        <p id="inner-card-text">White Phonix</p>
+                        <img src="./images/arrow-right.png" alt="" />
                     </div>
                 </div>
-                <div class="card">
-                    <h4>$271</h4>
-                    <p>White Phonix</p>
-                    <img src="./images/arrow-right.png" alt="" />
+            </div>
+        </section>
+
+        <section id="process-section">
+            <div class="process-section container">
+                <h5 class="uppercase-text-1">OUR WORKING PROCESS</h5>
+
+                <div class="process-row">
+                    <div class="process-row_first_column">
+                        <p class="num">01.</p>
+                        <h4>Discuss the concept with us.</h4>
+                    </div>
+                    <div class="process-text">
+                        <p class="text-lg">
+                            Engage in an insightful conversation with our team
+                            to explore your project's vision, goals, and desired
+                            outcomes
+                        </p>
+                    </div>
+                    <div class="process-link">
+                        <div class="orange-line"></div>
+                        <a class="uppercase-text-2" href=""> LEARN MORE</a>
+                    </div>
+                </div>
+
+                <div class="process-row">
+                    <div class="process-row_first_column">
+                        <p class="num">02.</p>
+
+                        <h4>Confirm the provided design.</h4>
+                    </div>
+                    <div class="process-text">
+                        <p class="text-lg">
+                            Once you provide us with the design you envision,
+                            our experienced team will meticulously review and
+                            validate every aspect.
+                        </p>
+                    </div>
+                    <div class="process-link">
+                        <div class="orange-line"></div>
+                        <a class="uppercase-text-2" href=""> LEARN MORE</a>
+                    </div>
+                </div>
+
+                <div class="process-row">
+                    <div class="process-row_first_column">
+                        <p class="num">03.</p>
+                        <h4>Get delivered the furniture on time.</h4>
+                    </div>
+                    <div class="process-text">
+                        <p class="text-lg">
+                            Our dedicated team prioritizes punctuality and
+                            efficient logistics to ensure that your furniture
+                            arrives precisely.
+                        </p>
+                    </div>
+                    <div class="process-link">
+                        <div class="orange-line"></div>
+                        <a class="uppercase-text-2" href=""> LEARN MORE</a>
+                    </div>
                 </div>
             </div>
         </section>
