@@ -104,7 +104,7 @@ a {
 }
 
 .container {
-    max-width: 1800px;
+    max-width: 1600px;
     margin: 0 auto;
     padding-left: 61px;
     padding-right: 61px;
@@ -457,9 +457,12 @@ a {
 }
 /* About Section */
 
-.about-section {
-    padding: 180px 152px;
+#about-section .container {
     background-color: var(--grey-color-25);
+}
+
+.about-section__content {
+    padding: 180px 91px;
 }
 
 .about-section__left {
