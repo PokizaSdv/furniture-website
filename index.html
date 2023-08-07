@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Furniture-Website</title>
+        <link rel="stylesheet" href="./base.css" />
         <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
@@ -321,16 +322,15 @@
                         coding. Build your next <br />consultancy website within
                         few minutes.
                     </p>
-                    <label for="emailInput"
-                        ><input
-                            type="email"
-                            placeholder="Enter email address"
-                            id="emailInput"
-                    /></label>
                     <input
+                        class="email-input"
+                        type="email"
+                        placeholder="Enter email address"
+                    />
+                    <input
+                        class="subscribe-input"
                         type="submit"
                         value="Subscribe"
-                        id="subscribeInput"
                     />
 
                     <div class="promise-container">
@@ -340,7 +340,7 @@
                             alt="lock icon"
                         />
                         <p class="text-md">
-                            We don’t spam at all, our promise!
+                            We don't spam at all, our promise!
                         </p>
                     </div>
                 </div>

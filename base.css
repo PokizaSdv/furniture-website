@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "MazzardL";
+    src: url("./fonts/MazzardL-Regular.otf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "MazzardL";
+    src: url("./fonts/MazzardL-SemiBold.otf") format("truetype");
+    font-weight: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #1d263a;
+    --beige-color: #fae2da;
+    --orange-color: #ff794d;
+    --white-color: #fff;
+    --green-color-25: #d6ebe4;
+    --green-color-100: #20bfa9;
+    --blue-color-25: #ebf5ff;
+    --grey-color-25: #f9fafb;
+    --grey-color-50: #dfdfdfb3;
+    --grey-color-100: #dfdfdf7c;
+}
+
+body {
+    font-family: "MazzardL", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.heading-1 {
+    color: #213053;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 66px;
+}
+
+.heading-3 {
+    color: var(--text-color);
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62.4px;
+}
+
+.heading-4 {
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.heading-5 {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.text-md {
+    color: var(--text-color);
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.text-lg {
+    color: var(--text-color);
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.uppercase-text-1 {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 6px;
+}
+
+.uppercase-text-2 {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 6px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 61px;
+    padding-right: 61px;
+    font-size: 0;
+}

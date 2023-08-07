@@ -1,121 +1,4 @@
-@font-face {
-    font-family: "MazzardL";
-    src: url("./fonts/MazzardL-Regular.otf") format("truetype");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "MazzardL";
-    src: url("./fonts/MazzardL-SemiBold.otf") format("truetype");
-    font-weight: 600;
-}
-
-:root {
-    --text-color: #1d263a;
-    --beige-color: #fae2da;
-    --orange-color: #ff794d;
-    --white-color: #fff;
-    --green-color-25: #d6ebe4;
-    --green-color-100: #20bfa9;
-    --blue-color-25: #ebf5ff;
-    --grey-color-25: #f9fafb;
-    --grey-color-50: #dfdfdfb3;
-    --grey-color-100: #dfdfdf7c;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "MazzardL", sans-serif;
-}
-
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.heading-1 {
-    color: #213053;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 66px;
-}
-
-.heading-3 {
-    color: var(--text-color);
-
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 62.4px;
-}
-
-.heading-4 {
-    color: var(--text-color);
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 46px;
-}
-
-.heading-5 {
-    color: var(--text-color);
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 32px;
-}
-
-.text-md {
-    color: var(--text-color);
-    opacity: 0.6;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-}
-
-.text-lg {
-    color: var(--text-color);
-    opacity: 0.6;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.uppercase-text-1 {
-    color: var(--text-color);
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 30px;
-    letter-spacing: 6px;
-}
-
-.uppercase-text-2 {
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 6px;
-}
-
-.container {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding-left: 61px;
-    padding-right: 61px;
-    font-size: 0;
-}
-
 /* Header */
-
-#header {
-    height: 110px;
-}
 
 .navigation {
     padding: 41px 91px;
@@ -323,18 +206,6 @@ a {
     border-radius: 15px;
 }
 
-.chair-light {
-    object-position: 50%;
-}
-
-.chair-dark {
-    object-position: 75%;
-}
-
-.couch {
-    object-position: 15%;
-}
-
 #design-last-card {
     position: relative;
 }
@@ -346,7 +217,6 @@ a {
     background-color: var(--white-color);
     border-radius: 10px;
     box-shadow: 0px 34px 50px 0px rgba(0, 0, 0, 0.15);
-
     position: absolute;
     left: 16px;
     bottom: 16px;
@@ -604,36 +474,33 @@ a {
     margin-bottom: 56px;
 }
 
-#emailInput {
-    margin-bottom: 34px;
+.email-input {
+    background-color: var(--white-color);
     padding: 20px 28px;
     height: 70px;
     width: 404px;
+    border: 1px solid var(--grey-color-50, rgba(223, 223, 223, 0.7));
+
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border: 1px solid var(--grey-color-50);
-    background: var(--white-color);
-}
 
-#emailInput:focus {
-    outline: solid 2px var(--green-color-100);
-}
-
-#emailInput::placeholder {
     color: var(--text-color);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 34px;
 }
 
-#subscribeInput {
+.subscribe-input {
     background-color: var(--green-color-100);
-    padding: 24px 48px;
-    cursor: pointer;
+    padding: 20px 28px;
     height: 70px;
-    border-color: var(--green-color-100);
+    width: 200px;
+    border: 1px solid var(--grey-color-50, rgba(223, 223, 223, 0.7));
+
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    cursor: pointer;
 
     color: var(--white-color);
     text-align: center;
@@ -655,7 +522,6 @@ a {
     width: 15px;
     height: 15px;
     display: inline-block;
-    vertical-align: auto;
 }
 
 .promise-container .text-md {
