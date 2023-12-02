@@ -47,15 +47,16 @@ a {
     color: #213053;
     font-size: 6rem;
     font-weight: 600;
-    line-height: 6.6rem;
+    line-height: 5.4rem;
 }
 
 .heading-3 {
     color: var(--text-color);
-    font-size: 5.2rem;
+    font-size: 4.2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 6.24rem;
+    line-height: 5rem;
+    
 }
 
 .heading-4 {
