@@ -1,20 +1,25 @@
 /* Header */
 
-.navigation {
+#header {
     padding: 4.1rem 9.1rem;
 }
-
-.img-wrapper,
-.signIn {
-    width: 15%;
+.logo {
+    vertical-align: middle;
     display: inline-block;
+    
+    width: 8rem;
+}
+
+.navigation {
+    display: inline-block;
+    width: calc(100% - 8rem);
 }
 
 .navigation__links {
-    width: 70%;
+    width: 90%;
     display: inline-block;
     text-align: center;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .navigation__links li {
@@ -25,20 +30,49 @@
     margin-right: 5rem;
 }
 
-.signIn {
-    text-align: right;
+.signIn_wrapper {
+    display: inline-block;
+    width: 10%;
+    text-align: end;
+    vertical-align: middle;
 }
+
 .navigation__links li a,
 .navigation a {
     color: var(--text-color);
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     font-weight: 600;
     line-height: 3rem;
     vertical-align: top;
 }
 
+#mobile-nav-icon {
+    display: none;
+}
 
+.close-icon {
+    font-size: 6rem;
+    color: #1d263a;
+    position: absolute;
+    right: 3rem;
+    top: 2.9rem;
+}
 
+.mobile-nav {
+    background-color: rgb(251, 245, 245);
+    height: 108vw;
+    width: 108vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+
+    display: none;
+}
+
+.show-menu {
+    display: inline-block;
+}
 
 /* Hero Section */
 
@@ -75,7 +109,6 @@
 .hero-section__right {
     display: inline-block;
     vertical-align: middle;
-    padding: 0;
     width: 57%;
     padding: 4.2rem;
 }
