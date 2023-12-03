@@ -51,6 +51,9 @@
         padding: 5rem;
     }
 
+    .about-section__content {
+        padding-bottom: 16rem;
+    }
     .hero-section__right h1 {
         font-size: 4rem;
         line-height: 4.4rem;
@@ -529,5 +532,102 @@
     .footer__content .text-lg {
         font-size: 2.8rem;
         line-height: 4.2rem;
+    }
+
+    .email-input {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        border-radius: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .subscribe-input {
+        width: 75%;
+        border-radius: 2rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .uppercase-text-2.text-top {
+        font-size: 2rem;
+        letter-spacing: 0.8rem;
+    }
+
+    .process-row h4 {
+        width: 30%;
+        margin-right: 2rem;
+    }
+
+    .process-row .text-lg {
+        margin-right: 2rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+
+    .circle {
+        width: 32rem;
+        height: 32rem;
+    }
+    .uppercase-text-2.text-top {
+        font-size: 1.8rem;
+        letter-spacing: 0.6rem;
+    }
+
+    .feature {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 6rem;
+    }
+
+    .feature-icon,
+    .feature-text {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .num,
+    .process-row h4,
+    .process-row .text-lg,
+    .process-link {
+        display: block;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .process-row .text-lg {
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+
+    .process-link {
+        text-align: left;
+    }
+    .process-link a {
+        vertical-align: middle;
+    }
+    .process-link .orange-line {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .subscribe-input {
+        width: 75%;
+    }
+
+    .footer__content .text-lg {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+        letter-spacing: 0.2rem;
     }
 }
